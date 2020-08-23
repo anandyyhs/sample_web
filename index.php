@@ -1,9 +1,8 @@
   
 <?php
-	echo "<h2> Welcome to my new page </h2>";
+	echo "<h1> Welcome to my new page </h1>";
 	print "\n";
-	$url = file_get_contents("link.txt");
-	$url_arr = explode("\n" , $url);
-	echo "<img src = '" . $url_arr[0] . "' alt='image' width='300px' height='200px'>";
+	$url_arr = "https://blog.ssdnodes.com/blog/wp-content/uploads/2018/08/201808_step-by-step-ansible-guide-1.jpeg";
+	echo "<img src = '" . $url_arr . "' alt='image' width='300px' height='200px'>";
 
 ?>
